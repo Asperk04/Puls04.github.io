@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo {
+        width: 251px;
+        img{
+            width: 100%;
+        }
+    }
+    &_official{
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        span{
+            margin-top: 6px;
+            font-size: 18px;
+            display: block;
+        }
+    }
+    &_phone {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-bottom: 2px;
+        text-decoration: none;
+        &:hover{
+            color:aqua;
+            text-decoration: underline;
+        }
+    }
+    &_contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    }
+}

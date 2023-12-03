@@ -1,0 +1,104 @@
+@media ( max-width: 1199px ){
+
+}
+@media ( max-width: 991px ) {
+    .promo{
+       .header{
+        &_logo{
+            width: 200px;
+        }
+        &_official{
+            font-weight: 400;
+        }
+        &_contacts{
+            button{
+                width: 120px;
+                font-size: 10px;
+            }
+        }
+        &_phone{
+            font-size: 15px;
+        }
+       }
+
+    }
+    .promo_header{
+        font-size: 30px;
+    }
+    .promo_subheader{
+        font-size: 20px;
+    }
+    .button_main{
+        width: 250px;
+        font-size: 15px;
+    }
+    .promo_link{
+        font-size: 13px;
+    }
+
+
+
+    .benefits{
+    &_titel{
+        font-size: 25px;
+        }
+    &_descr {
+        font-size: 12;
+        font-weight: 200;
+        width: 250px;
+    }
+}
+.consultation{
+    padding: 70px 0 90px 0;
+    &_titel{
+        width: 947px;
+        margin-bottom: 50px;
+        font-size: 32px;
+    }
+    &_desc{
+        font-size: 20px;
+    }
+}
+.carousel{
+    &_inner{
+        width: 700px;
+    }
+   
+    .slick-next{
+       
+        img{
+            width: 21px;
+            height: 40px;
+            
+        }
+    
+    }
+    .slick-prev{
+        left: -46px;
+        img{
+            width: 21px;
+            height: 40px;
+            
+        }
+    
+    }
+}
+    .catalog{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+
+    .stt {
+        bottom: 35px;
+        right: 150pxx;
+    }
+}
+
+
+
+
+@media (max-width: 767px){
+    
+}
